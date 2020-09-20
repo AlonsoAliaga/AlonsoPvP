@@ -1,15 +1,16 @@
-![Logo](IMAGE)
+## Welcome to the AlonsoPvP wiki!
 
-# PluginName
-LINE1.\
-LINE2.
+![Logo](https://i.imgur.com/TvTPjzV.png)
+
+# AlonsoPvP
+Add a new gamemode to your servers similar to the one in the well-known network!.
 
 ## Resources
-- [Spigot resource](https://www.spigotmc.org/resources/X/)
-- [Issue tracker](https://github.com/AlonsoAliaga/PluginName/issues)
+- [Spigot resource](https://www.spigotmc.org/resources/84049/)
+- [Issue tracker](https://github.com/AlonsoAliaga/AlonsoPvP/issues)
 - [Donate](https://paypal.me/AlonsoAliaga)
-- [bStats](https://bstats.org/plugin/bukkit/PluginName)
-- [DeveloperAPI](https://github.com/AlonsoAliaga/PluginName/wiki/PluginNameAPI)
+- [bStats](https://bstats.org/plugin/bukkit/AlonsoPvP)
+- [DeveloperAPI](https://github.com/AlonsoAliaga/AlonsoPvP/wiki/AlonsoPvPAPI)
 
 ## Plugin statistics
-![bStats.org](https://bstats.org/signatures/bukkit/PluginName.svg)
+![bStats.org](https://bstats.org/signatures/bukkit/AlonsoPvP.svg)
