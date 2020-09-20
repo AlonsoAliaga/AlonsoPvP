@@ -1,0 +1,865 @@
+Kits:
+  beast:
+    Enabled: true
+    Slot: 9
+    Displayname: '&6&l{COLOR}Beast'
+    Name: Beast
+    Icon:
+      ==: "org.bukkit.inventory.ItemStack"
+      v: 2580
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+    Lore-locked:
+    - '&7Kit includes:'
+    - '&f- &eDiamond sword'
+    - '&f- &eDiamond armour'
+    - '    &7Protection II'
+    - ''
+    - '&cThis kit is free!'
+    - '&dLeft click: &7Random spawn'
+    - '&dRight click: &7Select spawn'
+    Lore-unlocked:
+    - '&7Kit includes:'
+    - '&f- &eDiamond sword'
+    - '&f- &eDiamond armour'
+    - '    &7Protection II'
+    - ''
+    - '&dLeft click: &7Random spawn'
+    - '&dRight click: &7Select spawn'
+    #Permission required to equip the kit.
+    Permission: "none"
+    Message-no-permission: "&cYou don't have permission to select this kit."
+    #This is the ITEM that will be added to the player when he kills someone.
+    #Set to " Rewards: [] " if you want to disable. To add rewards, use the command in game.
+    Rewards: []
+    Content:
+      Armor:
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      Inventory:
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: DIAMOND_SWORD
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+    #Effects that will be given once the player gets the kit.
+    #Follow the format. "TYPE:LEVEL:TIME IN TICKS"
+    #Time in ticks must be calculated like this: 20 ticks is 1 second. If you want it to be 30 seconds, you multiply 30 * 20 = 600
+    Effects: []
+  sniper:
+    Enabled: true
+    Slot: 11
+    Displayname: "&6&l{COLOR}Sniper"
+    Name: "Sniper"
+    Icon:
+      ==: "org.bukkit.inventory.ItemStack"
+      v: 2580
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+    Lore-locked:
+    - '&7Kit includes:'
+    - '&f- &eBow'
+    - '    &7Power III'
+    - '&f- &eIron sword'
+    - '    &7Knockback I'
+    - '&f- &eIron armour'
+    - '    &7Protection II'
+    - '&f- &e32x Arrows'
+    - ''
+    - '&f8x Arrows per kill.'
+    - ''
+    - '&cThis kit is free!'
+    - '&dLeft click: &7Random spawn'
+    - '&dRight click: &7Select spawn'
+    Lore-unlocked:
+    - '&7Kit includes:'
+    - '&f- &eBow'
+    - '    &7Power III'
+    - '&f- &eIron sword'
+    - '    &7Knockback I'
+    - '&f- &eIron armour'
+    - '    &7Protection II'
+    - '&f- &e32x Arrows'
+    - ''
+    - '&f8x Arrows per kill.'
+    - ''
+    - '&dLeft click: &7Random spawn'
+    - '&dRight click: &7Select spawn'
+    Permission: "none"
+    Message-no-permission: "&cYou don't have permission to select this kit."
+    Rewards:
+    - ==: "org.bukkit.inventory.ItemStack"
+      v: 2580
+      type: ARROW
+      amount: 8
+    Content:
+      Armor:
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: IRON_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: IRON_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      Inventory:
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            KNOCKBACK: 1
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 3
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: ARROW
+        amount: 32
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+    Effects: []
+  samurai:
+    Enabled: true
+    Slot: 13
+    Displayname: "&6&l{COLOR}Samurai"
+    Name: "Samurai"
+    Icon:
+      ==: "org.bukkit.inventory.ItemStack"
+      v: 2580
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+    Lore-locked:
+    - '&7Kit includes:'
+    - '&f- &eDiamond sword'
+    - '    &7Knockback I'
+    - '    &7Sharpness I'
+    - '&f- &eLeather helmet'
+    - '&f- &eDiamond chestplate'
+    - '    &7Protection III'
+    - '&f- &eDiamond boots'
+    - '    &7Protection III'
+    - '    &7Feather falling III'
+    - ''
+    - '&fPermanent Speed III'
+    - ''
+    - '&cThis kit is free!'
+    - '&dLeft click: &7Random spawn'
+    - '&dRight click: &7Select spawn'
+    Lore-unlocked:
+    - '&7Kit includes:'
+    - '&f- &eDiamond sword'
+    - '    &7Knockback I'
+    - '    &7Sharpness I'
+    - '&f- &eLeather helmet'
+    - '&f- &eDiamond chestplate'
+    - '    &7Protection III'
+    - '&f- &eDiamond boots'
+    - '    &7Protection III'
+    - '    &7Feather falling III'
+    - ''
+    - '&fPermanent Speed III'
+    - ''
+    - '&dLeft click: &7Random spawn'
+    - '&dRight click: &7Select spawn'
+    Permission: "none"
+    Message-no-permission: "&cYou don't have permission to select this kit."
+    Rewards: []
+    Content:
+      Armor:
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            PROTECTION_FALL: 3
+      - null
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          color:
+            ==: Color
+            RED: 60
+            BLUE: 170
+            GREEN: 68
+      Inventory:
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 1
+            KNOCKBACK: 1
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+    Effects:
+    - "SPEED:2:999999"
+  wizard:
+    Enabled: true
+    Slot: 15
+    Displayname: "&6&l{COLOR}Wizard"
+    Name: "Wizard"
+    Icon:
+      ==: "org.bukkit.inventory.ItemStack"
+      v: 2580
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+    Lore-locked:
+    - "&7Kit includes:"
+    - "&f- &eIron sword"
+    - "    &7Sharpness I"
+    - "&f- &eLeather armour"
+    - "    &7Protection III"
+    - "&f- &e2x Regeneration potion"
+    - "    &7(1m 30s)"
+    - "&f- &e3x Swiftness potion"
+    - "    &7(30s)"
+    - "&f- &e2x Healing potion"
+    - "&f- &e4x Harming potion"
+    - "&f- &e2x Poison potion"
+    - "    &7(6s)"
+    - "&f- &e1x Strength potion"
+    - "    &7(3m)"
+    - ""
+    - "&cThis kit is free!"
+    - "&dLeft click: &7Random spawn"
+    - "&dRight click: &7Select spawn"
+    Lore-unlocked:
+    - "&7Kit includes:"
+    - "&f- &eIron sword"
+    - "    &7Sharpness I"
+    - "&f- &eLeather armour"
+    - "    &7Protection III"
+    - "&f- &e2x Regeneration potion"
+    - "    &7(1m 30s)"
+    - "&f- &e3x Swiftness potion"
+    - "    &7(30s)"
+    - "&f- &e2x Healing potion"
+    - "&f- &e4x Harming potion"
+    - "&f- &e2x Poison potion"
+    - "    &7(6s)"
+    - "&f- &e1x Strength potion"
+    - "    &7(3m)"
+    - ""
+    - "&dLeft click: &7Random spawn"
+    - "&dRight click: &7Select spawn"
+    Permission: "none"
+    Message-no-permission: "&cYou don't have permission to select this kit."
+    Rewards: []
+    Content:
+      Armor:
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+          color:
+            ==: Color
+            RED: 60
+            BLUE: 170
+            GREEN: 68
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+          color:
+            ==: Color
+            RED: 60
+            BLUE: 170
+            GREEN: 68
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+          color:
+            ==: Color
+            RED: 60
+            BLUE: 170
+            GREEN: 68
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+          color:
+            ==: Color
+            RED: 60
+            BLUE: 170
+            GREEN: 68
+      Inventory:
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 1
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: POTION
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:long_regeneration
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: POTION
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 1
+            duration: 600
+            amplifier: 0
+            ambient: true
+            has-particles: true
+            has-icon: true
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: SPLASH_POTION
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:healing
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: SPLASH_POTION
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:harming
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: SPLASH_POTION
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          custom-effects:
+          - ==: PotionEffect
+            effect: 19
+            duration: 120
+            amplifier: 0
+            ambient: true
+            has-particles: true
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:strength
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+    Effects: []
+  warrior:
+    Enabled: true
+    Slot: 17
+    Displayname: "&6&l{COLOR}Warrior"
+    Name: "Warrior"
+    Icon:
+      ==: "org.bukkit.inventory.ItemStack"
+      v: 2580
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+    Lore-locked:
+    - "&7Kit includes:"
+    - "&f- &eDiamond sword"
+    - "    &7Sharpness II"
+    - "&f- &eDiamond armour"
+    - ""
+    - "&cThis kit is free!"
+    - "&dLeft click: &7Random spawn"
+    - "&dRight click: &7Select spawn"
+    Lore-unlocked:
+    - "&7Kit includes:"
+    - "&f- &eDiamond sword"
+    - "    &7Sharpness II"
+    - "&f- &eDiamond armour"
+    - ""
+    - "&dLeft click: &7Random spawn"
+    - "&dRight click: &7Select spawn"
+    Permission: "none"
+    Message-no-permission: "&cYou don't have permission to select this kit."
+    Rewards: []
+    Content:
+      Armor:
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: DIAMOND_BOOTS
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: DIAMOND_LEGGINGS
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: DIAMOND_CHESTPLATE
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: DIAMOND_HELMET
+      Inventory:
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 2
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+    Effects: []
+  #This is an example of a new kit created using the plugin.
+  pro-kit:
+    Enabled: true
+    Slot: 4
+    Displayname: "&6&l{COLOR}Pro"
+    Name: "Pro"
+    Icon:
+      ==: "org.bukkit.inventory.ItemStack"
+      v: 2580
+      type: DIAMOND_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+    Lore-locked:
+    - '&7Kit includes:'
+    - '&f- &eDiamond sword'
+    - '    &7Sharpness II'
+    - '&f- &eDiamond helmet'
+    - '    &7Protection II'
+    - '&f- &eDiamond chestplate'
+    - '    &7Protection II'
+    - '&f- &eLeather leggings'
+    - '    &7Protection II'
+    - '&f- &eDiamond boots'
+    - '    &7Protection II'
+    - "&f- &e1x Golden apple"
+    - ''
+    - '&f1x Golden apple per kill.'
+    - '&fPermanent Resistance I'
+    - ''
+    - '&cRequires &5&k|&5Obsidian&6&k|&c rank.'
+    Lore-unlocked:
+    - '&7Kit includes:'
+    - '&f- &eDiamond sword'
+    - '    &7Sharpness II'
+    - '&f- &eDiamond helmet'
+    - '    &7Protection II'
+    - '&f- &eDiamond chestplate'
+    - '    &7Protection II'
+    - '&f- &eLeather leggings'
+    - '    &7Protection II'
+    - '&f- &eDiamond boots'
+    - '    &7Protection II'
+    - "&f- &e1x Golden apple"
+    - ''
+    - '&f1x Golden apple per kill.'
+    - '&fPermanent Resistance I'
+    - ''
+    - '&dLeft click: &7Random spawn'
+    - '&dRight click: &7Select spawn'
+    Permission: alonsopvp.kit.pro
+    Message-no-permission: "&cYou don't have permission to select this kit. Purchase &6[MVP++]&c at &bstore.yournetwork.net&c!"
+    Rewards:
+    - ==: "org.bukkit.inventory.ItemStack"
+      v: 2578
+      type: GOLDEN_APPLE
+    Content:
+      Armor:
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+          color:
+            ==: Color
+            RED: 45
+            BLUE: 102
+            GREEN: 50
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      Inventory:
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 2
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - ==: "org.bukkit.inventory.ItemStack"
+        v: 2580
+        type: GOLDEN_APPLE
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+    Effects:
+    - "DAMAGE_RESISTANCE:0:999999"
